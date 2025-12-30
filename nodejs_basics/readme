@@ -1,0 +1,48 @@
+# 🚀 Node.js Basics — HTTP & Express
+
+A hands-on learning repo covering **Node.js fundamentals** — starting with the native `http` module and then moving to **Express**, showing *when and why to use each*.
+
+This repo is designed like interview-ready notes + working mini-projects
+
+---
+
+## ✨ What you’ll learn
+
+### 🔹 HTTP (Built-in Node)
+- Creating a basic HTTP server  
+- Request & Response lifecycle  
+- Routing manually  
+- Parsing JSON & Query Params  
+- Why HTTP becomes hard as apps grow
+
+### 🔹 Express
+- Creating an Express server  
+- Middleware (logging, parsing, auth basics)  
+- Routing the right way  
+- Error handling  
+- When Express saves time (and when raw HTTP is fine)
+
+---
+
+## 📂 Project Structure
+
+nodejs_basics/
+├── httpBasic/
+│ └── server.js
+├── expressBasic/
+│ └── server.js
+├── package.json
+└── README.md
+
+
+---
+
+## ▶️ Running the projects
+
+### HTTP server
+```bash
+cd nodejs_basics/httpBasic
+node server.js
+
+## server start at 3000
+http://localhost:3000
