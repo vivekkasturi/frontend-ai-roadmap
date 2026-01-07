@@ -1,0 +1,12 @@
+# Implement Array.prototype.map
+
+## Problem
+Create a custom implementation of the `map()` method.
+
+## Requirements
+- Return a NEW array
+- Do not mutate original
+- Callback receives (value, index, array)
+
+## Example
+[1,2,3].myMap(x => x * 2) => [2,4,6]
